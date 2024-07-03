@@ -10,7 +10,7 @@ header {
     background-color: #008cba;
     color: white;
     padding: 1em;
-    text-align: left;
+    text-align: center;
     position: relative;
 }
 
@@ -36,13 +36,17 @@ header p {
     margin: 20px auto;
 }
 
-.hamburger-menu {
+.hamburger-menu, .close-menu {
     font-size: 2em;
     cursor: pointer;
     display: none;
     position: absolute;
     top: 10px;
     right: 20px;
+}
+
+.close-menu {
+    display: none;
 }
 
 .nav-links {
