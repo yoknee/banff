@@ -51,6 +51,7 @@ header p {
 .close-menu {
     display: none;
     color: white;
+    z-index: 10000;
 }
 
 .nav-links {
