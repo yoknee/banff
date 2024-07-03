@@ -51,12 +51,11 @@ header p {
 .close-menu {
     display: none;
     color: white;
-    z-index: 10000;
 }
 
 .nav-links {
     list-style: none;
-    padding: 0;
+    padding: 1em;
     margin: 0;
     display: none;
     flex-direction: column;
@@ -85,6 +84,31 @@ header p {
     .hamburger-menu {
         display: block;
     }
+}
+
+.tabs {
+    background-color: #008cba;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.tabs ul li {
+    display: inline;
+}
+
+.tabs ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
 }
 
 main {
