@@ -39,19 +39,23 @@ header p {
 .hamburger-menu, .close-menu {
     font-size: 2em;
     cursor: pointer;
-    display: none;
     position: absolute;
     top: 10px;
     right: 20px;
 }
 
+.hamburger-menu {
+    display: block;
+}
+
 .close-menu {
     display: none;
+    color: white;
 }
 
 .nav-links {
     list-style: none;
-    padding: 1em;
+    padding: 0;
     margin: 0;
     display: none;
     flex-direction: column;
