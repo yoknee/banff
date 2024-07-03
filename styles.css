@@ -48,7 +48,7 @@ header p {
 .nav-links {
     list-style: none;
     padding: 1em;
-    margin: 1em;
+    margin: 0;
     display: none;
     flex-direction: column;
     position: fixed;
