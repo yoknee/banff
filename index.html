@@ -171,12 +171,13 @@
     </footer>
     <script>
         document.getElementById('hamburger-menu').addEventListener('click', function() {
-            var navLinks = document.getElementById('nav-links');
-            if (navLinks.style.display === 'block') {
-                navLinks.style.display = 'none';
-            } else {
-                navLinks.style.display = 'block';
-            }
+            document.getElementById('nav-links').style.display = 'flex';
+            document.getElementById('close-menu').style.display = 'block';
+        });
+
+        document.getElementById('close-menu').addEventListener('click', function() {
+            document.getElementById('nav-links').style.display = 'none';
+            document.getElementById('close-menu').style.display = 'none';
         });
     </script>
 </body>
